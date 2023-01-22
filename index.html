@@ -18,11 +18,78 @@
 
   <body>
     <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Data Visualization Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visualization 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visualization 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visualization 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visualization 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visualization 5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Visualization 6</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
     <!-- End of navbar -->
 
     <!-- Start of container -->
-          <!-- Start of Visualisations imageNav Area -->
+    <div class="container">
+        <h1>Welcome to our Data Visualization Dashboard</h1>
+        <p>This website contains visualizations of various datasets. Click on the links in the navigation bar to explore each visualization and the data used to create them.</p>
+        <div class="row">
+        <!-- Start of Visualisations imageNav Area -->
+          <div class="col-sm">
+            <a href="/visualisations/cloudiness.html">
+              <img src="/assets/images/Fig1.png" alt="Visualization 1">
+              <p>Visualization 1</p>
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="/visualisations/humidity.html">
+              <img src="assets/images/Fig2.png" alt="Visualization 2">
+              <p>Visualization 2</p>
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="/visualisations/temp.html">
+              <img src="assets/images/Fig3.png" alt="Visualization 3">
+              <p>Visualization 3</p>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <a href="/visualisations/wind.html">
+              <img src="assets/images/Fig4.png" alt="Visualization 4">
+              <p>Visualization 4</p>
+            </a>
+          </div>
           <!-- End of the Visualisations imageNav Area -->
+          </div>
+        </div>
+      </div>  
     <!-- End of container -->
 
     <!-- jQuery CDN -->
