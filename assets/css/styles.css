@@ -1,0 +1,42 @@
+.navbar {
+    background-color: white;
+    color: white !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+  
+.brand-teal {
+    background-color: teal;
+}
+  
+@media (max-width: 768px) {
+.navbar {
+    background-color: teal !important;
+}
+}
+  
+body{
+    background-color: lightgrey;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-small {
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    color: teal;
+}
