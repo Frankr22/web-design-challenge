@@ -17,9 +17,16 @@
     background-color: teal !important;
 }
 }
+
+.container-fluid {
+    padding-top: 70px; /* adjust the value to your desired height */
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: lightgray /* set the background color to light grey */
+  }  
   
 body{
-    background-color: lightgrey;
+    background-color: lightgray;
     padding-top: 30px !important;
     padding-bottom: 30px !important;
 }
@@ -37,6 +44,23 @@ body{
 
 h1 {
     font-size: 20pt;
+    font-weight: bold;
+    color: teal;
+    border-bottom: 1px solid lightgray; /* add a light grey border to the bottom of the h1 element */
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: teal;
+    border-bottom: 1px solid lightgray; /* add a light grey border to the bottom of the h1 element */
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 16pt;
     font-weight: bold;
     color: teal;
 }
